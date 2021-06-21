@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html{
+  font-size: 10px;
+}
+body {
+  background: #FF94CC;
+}
+
+h1 {
+  font-family: 'Poppins',sans-serif;
+  font-size: 4rem;
+  color:#5C33F6 ;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+#containerInformation{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+.username {
+  font-family: 'Poppins',sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.email-dev {
+  
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 10px;
+
+}
+
+.avatar-dev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
